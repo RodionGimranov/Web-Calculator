@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const inputBox = document.querySelector(".input_box");
     let currentValue = "";
 
-    document.querySelectorAll("section[class^='btn_']").forEach(button => {
+    document.querySelectorAll("div[class^='btn_']").forEach(button => {
         button.addEventListener("click", function() {
             const btnValue = this.innerText;
 
